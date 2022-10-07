@@ -4,6 +4,7 @@
   "description": "my first trial in web development using git",
   "main": "index.js",
   "scripts": {
+    "buildDev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/zxc18874151571/CodeHawke-course/issues"
   },
-  "homepage": "https://github.com/zxc18874151571/CodeHawke-course#readme"
+  "homepage": "https://github.com/zxc18874151571/CodeHawke-course#readme",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.11.3"
+  }
 }
